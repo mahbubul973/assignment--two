@@ -1,0 +1,126 @@
+h2{
+    color: rgb(59, 2, 2);
+    margin-left: 20px;
+}
+.headerline{
+    color: rgb(197, 7, 197);
+}
+.heading-page{
+    display: flex;
+    margin-left: 20px;
+    padding: auto; 
+    justify-content: center;
+    align-items: center;  
+}
+.first-pera{
+    width: 50%;
+    margin: auto;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+}
+.first-image{
+    margin-left: 40px;
+    padding-left: 40px;
+    width: 50%;
+    justify-content: center;
+    align-content: right;
+}
+.button{
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(163, 7, 46);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight: 700;
+}
+h3{
+    text-align: center;
+}
+.fa-star.field{
+    color: #ffc014;
+}
+.fa-star-half-alt.field{
+    color:  #ffc014;
+}
+.paraghrap{
+    padding: 0 0 0 0;
+}
+.blog{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px 0;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.featured{
+    margin: auto;
+    width: 50%;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+.writing{
+    width: 50%;
+    margin: auto;
+    padding: 0;
+    justify-content: center;
+    align-items:  center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px 0;
+    
+}
+.bonous-track{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    margin: 0 10px;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.tablecontainer{
+    text-align: center;
+    background-color: rgb(16, 1, 29);
+    padding: 25px;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+}
+
+/* media queries */
+
+@media only screen and (max-width:688px) {
+    .heading-page, .container, .bonous-track{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+/* tablet devices */
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .heading-page, .container, .bonous-track{
+        background-color: yellowgreen;
+    }
+    .container, .bonous-track{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
